@@ -1,0 +1,142 @@
+@media (max-width: 1071px) {
+  .fechada {
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  .fogo {
+    position: relative;
+    right: -40px;
+  }
+
+  .agua {
+    position: relative;
+    left: 9px;
+  }
+
+  .planta {
+    position: relative;
+    right: 40px;
+  }
+}
+
+@media (max-width: 922px){
+
+
+    .pokebola {
+        max-width: 25px;
+        max-height: 25px;
+    }
+    .fechada {
+        max-width: 200px;
+        max-height: 200px;
+        padding: 0px;
+    }
+
+    .fogo {
+        position: relative;
+        right: -80px;
+        font-size: 15px;
+      }
+    
+      .agua {
+        position: relative;
+        left: 0px;
+        font-size: 15px;
+      }
+    
+      .planta {
+        position: relative;
+        right: 70px;
+        font-size: 15px;
+      }
+}
+
+@media (max-width: 770px){
+    
+    .cabecalho{
+        font-size: 14px;
+    }
+    .pokebola {
+        max-width: 25px;
+        max-height: 25px;
+    }
+    .fechada {
+        max-width: 150px;
+        max-height: 150px;
+        padding: 0px;
+    }
+
+    .fogo {
+        position: relative;
+        right: -130px;
+        font-size: 10px;
+      }
+    
+      .agua {
+        position: relative;
+        left: 8px;
+        font-size: 10px;
+      }
+    
+      .planta {
+        position: relative;
+        right: 120px;
+        font-size: 10px;
+      }
+}
+
+@media (max-width: 622px){
+    .fechada {
+        max-width: 250px;
+        max-height: 250px;
+    }
+    .fogo {
+        position: relative;
+        right: -298px;
+        top: -1070px;
+        font-size: 22px;
+      }
+    
+      .agua {
+        position: relative;
+        left: -20px;
+        top: -530px;
+        font-size: 22px;
+      }
+    
+      .planta {
+        position: relative;
+        right: 400px;
+        top: 10px;
+        font-size: 22px;
+      }
+}
+
+@media (max-width: 392px) {
+    
+    .fechada {
+        max-width: 280px;
+        max-height: 280px;
+    }
+    .fogo {
+        position: relative;
+        right: -330px;
+        top: -1130px;
+        font-size: 22px;
+      }
+    
+      .agua {
+        position: relative;
+        left: -4px;
+        top: -560px;
+        font-size: 22px;
+      }
+    
+      .planta {
+        position: relative;
+        right: 360px;
+        top: 10px;
+        font-size: 22px;
+      }
+}
