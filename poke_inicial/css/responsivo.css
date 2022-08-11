@@ -1,0 +1,117 @@
+@media (max-width: 600px){
+
+   .slider {
+    gap: 15px;
+   }
+}
+
+@media (max-width: 480px){
+    
+    .cabecalho {
+        gap: 0;
+        padding-top: 20px;
+    }
+
+    .cabecalho.titulo {
+        font-size: 8px;
+    }
+
+    a {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    a:hover {
+        font-size: 40%;
+    }
+
+
+    .slider {
+        gap: 10px;
+    }
+
+    .btn-seta {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .imagem-pokemon {
+        max-height: 300px;
+        max-width: 250px;
+    }
+
+    .lista-pokemons {
+        height: 495px;
+        width: 280px;
+    }
+    .cartao {
+        width: 295px;
+    }
+
+    .fundo-1 {
+        padding: 7px;
+    }
+
+    .info{
+        padding: 5px;
+    }
+    .nome {
+        max-width: 50%;
+        font-size: 20px;
+    }
+
+    .tipo{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .tipo1{
+        font-size: 20px;
+        padding: 5px;
+    }
+
+
+    .descicao {
+        font-size: 14px;
+        max-height: 50%;
+    }
+
+    .txt {
+        font-size: 14px;
+        padding: 8px;
+        max-height: 90px;
+    }
+}
+
+@media (max-width: 380px){
+
+
+    .cabecalho {
+        padding: 0px;
+    }
+    .cabecalho.titulo{
+        font-size: 18px;
+    }
+    .img-squirtle {
+        position: relative;
+        left: -28px;
+    }
+    
+    .fundo-1 {
+        padding: 7px;
+        max-width: 255px;
+    }
+    .tipo{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .tipo1{
+        font-size: 15px;
+        padding: 5px;
+    }
+}
+
+    
