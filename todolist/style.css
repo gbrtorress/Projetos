@@ -15,6 +15,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: auto;
 }
 
 .container {
@@ -22,6 +23,9 @@ body {
   padding: 30px 20px;
   width: 40%;
   min-width: 500px;
+  flex: 1 1 auto;
+  overflow-y: auto;
+  height: 700px;
 }
 
 .new-task-container {
@@ -79,7 +83,7 @@ body {
   margin-top: 20px;
   border: 2px solid #fae684;
   border-radius: 5px;
-  overflow-x: auto;
+ 
 }
 
 .task-item i {
